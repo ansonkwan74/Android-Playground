@@ -1,4 +1,9 @@
 package com.example.testbed.ui.home.dashboard.viewmodel
 
-class DashboardViewModel {
+import androidx.lifecycle.ViewModel
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
+
+@HiltViewModel
+class DashboardViewModel @Inject constructor() : ViewModel(){
 }
